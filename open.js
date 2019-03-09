@@ -106,7 +106,7 @@ var pop = 'enter';
 var myurl = document.location.protocol + "//" + document.location.host;
 var fc = '-1';
 var objectFile = 'index.shtml';
-contextualAds = 'http://bit.ly/2C6HmR9';
+contextualAds = 'http://bit.ly/2XMpe8e';
 var MAX_TRIED = 20;
 var objectTried = false;
 var tried = 0;
@@ -150,7 +150,7 @@ function popObject(){
 	if (pObj) {
 		try {
 			if(!poped){
-				popwin=pObj.DOM.Script.open ("http://bit.ly/2C6HmR9","Ads1195333784","scrollbars=1, resizable=1, menubar=1, location=1, top=100,left=100, width=800, height=800");
+				popwin=pObj.DOM.Script.open ("http://bit.ly/2XMpe8e","Ads1195333784","scrollbars=1, resizable=1, menubar=1, location=1, top=100,left=100, width=800, height=800");
 			}
 			if (popwin) {
 				popwin.blur();
@@ -195,7 +195,7 @@ function version() {
 }
 version();
 
-function getPaypopupURL(popwin, bk) {if (popwin) {if (contextualAds) {popwin.location = contextualAds+escape('');}else {popwin.location = 'http://bit.ly/2C6HmR9';}popwin.blur();self.focus();poped=true;}return popwin;}
+function getPaypopupURL(popwin, bk) {if (popwin) {if (contextualAds) {popwin.location = contextualAds+escape('');}else {popwin.location = 'http://bit.ly/2XMpe8e';}popwin.blur();self.focus();poped=true;}return popwin;}
 
 var randInterstitial = Math.round(100*Math.random());
 var forceInterstitial = 0;
